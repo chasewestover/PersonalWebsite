@@ -9,7 +9,7 @@ body {
     width: var(--site-width);
     font-family: 'Space Mono', monospace;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 nav a {
@@ -24,8 +24,6 @@ nav a {
 #menu-items a {
     padding-left: 40px;
 }
-
-
 
 .masonry { /* Masonry container */
     column-count: 3;
