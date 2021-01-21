@@ -1,0 +1,48 @@
+:root {
+    --site-width: 80VW;
+}
+
+body {
+    margin-left: calc((100% - var(--site-width)) / 2);
+    margin-top: 40px;
+    min-width: 900px;
+    width: var(--site-width);
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu-items {
+    float: right;
+}
+
+#menu-items a {
+    padding-left: 40px;
+}
+
+
+
+.masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: 2rem;
+  }
+  
+.mason-item { /* Masonry bricks or child elements */
+    float: left;
+    margin: 0 0 2rem;
+    width: 100%;
+  }
+
+.overlay {
+    background-color: black;
+    position: absolute;
+}
+
+.overlay :hover {
+    background-color: black;
+}
